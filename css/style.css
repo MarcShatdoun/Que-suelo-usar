@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1360px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+    
+}
+
+section article{
+    width: 360px;
+
+
+
+    img{
+        width: 100%;
+    }
+}
